@@ -7,20 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F999EA475651BD4A51E6401 /* Pods_20230614_KebukeAPP_SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 176ED7E4A357DF0A68074E83 /* Pods_20230614_KebukeAPP_SnapKit.framework */; };
+		B32E6D862A39AEA8007D543C /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32E6D852A39AEA8007D543C /* MainTabBarController.swift */; };
+		B32E6D882A39AF29007D543C /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32E6D872A39AF29007D543C /* MainNavigationController.swift */; };
+		B32E6D8A2A39AF7E007D543C /* MainCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32E6D892A39AF7E007D543C /* MainCollectionViewController.swift */; };
+		B32E6D8C2A39AFB1007D543C /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32E6D8B2A39AFB1007D543C /* DetailViewController.swift */; };
+		B32E6D8E2A39AFDD007D543C /* SecondaryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32E6D8D2A39AFDD007D543C /* SecondaryTableViewController.swift */; };
+		B36437B72A3B041C0051346E /* SecondaryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36437B62A3B041C0051346E /* SecondaryTableViewCell.swift */; };
+		B36437B92A3B0CBA0051346E /* SecondaryNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36437B82A3B0CBA0051346E /* SecondaryNavigationController.swift */; };
+		B3B09E032A39E2FF009627E0 /* DrinksContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B09E022A39E2FF009627E0 /* DrinksContent.swift */; };
+		B3F3C31C2A3AB31600AEF654 /* HeaderCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F3C31B2A3AB31600AEF654 /* HeaderCollectionReusableView.swift */; };
+		B3F3C31E2A3AB3FA00AEF654 /* DrinksCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F3C31D2A3AB3FA00AEF654 /* DrinksCollectionViewCell.swift */; };
+		B3F3C3202A3AC24800AEF654 /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F3C31F2A3AC24800AEF654 /* Globals.swift */; };
 		B3F8D9E12A399BE800B821B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F8D9E02A399BE800B821B9 /* AppDelegate.swift */; };
-		B3F8D9E32A399BE800B821B9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F8D9E22A399BE800B821B9 /* SceneDelegate.swift */; };
-		B3F8D9E52A399BE800B821B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F8D9E42A399BE800B821B9 /* ViewController.swift */; };
-		B3F8D9E82A399BE800B821B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3F8D9E62A399BE800B821B9 /* Main.storyboard */; };
 		B3F8D9EA2A399BE900B821B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3F8D9E92A399BE900B821B9 /* Assets.xcassets */; };
 		B3F8D9ED2A399BE900B821B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3F8D9EB2A399BE900B821B9 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A9BA75A5684AE4F8C65C296 /* Pods-20230614_KebukeAPP_SnapKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-20230614_KebukeAPP_SnapKit.debug.xcconfig"; path = "Target Support Files/Pods-20230614_KebukeAPP_SnapKit/Pods-20230614_KebukeAPP_SnapKit.debug.xcconfig"; sourceTree = "<group>"; };
+		176ED7E4A357DF0A68074E83 /* Pods_20230614_KebukeAPP_SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_20230614_KebukeAPP_SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		37E0A7C2111DF114317E33D2 /* Pods-20230614_KebukeAPP_SnapKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-20230614_KebukeAPP_SnapKit.release.xcconfig"; path = "Target Support Files/Pods-20230614_KebukeAPP_SnapKit/Pods-20230614_KebukeAPP_SnapKit.release.xcconfig"; sourceTree = "<group>"; };
+		B32E6D852A39AEA8007D543C /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		B32E6D872A39AF29007D543C /* MainNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigationController.swift; sourceTree = "<group>"; };
+		B32E6D892A39AF7E007D543C /* MainCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCollectionViewController.swift; sourceTree = "<group>"; };
+		B32E6D8B2A39AFB1007D543C /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		B32E6D8D2A39AFDD007D543C /* SecondaryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondaryTableViewController.swift; sourceTree = "<group>"; };
+		B36437B62A3B041C0051346E /* SecondaryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondaryTableViewCell.swift; sourceTree = "<group>"; };
+		B36437B82A3B0CBA0051346E /* SecondaryNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondaryNavigationController.swift; sourceTree = "<group>"; };
+		B3B09E022A39E2FF009627E0 /* DrinksContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinksContent.swift; sourceTree = "<group>"; };
+		B3F3C31B2A3AB31600AEF654 /* HeaderCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderCollectionReusableView.swift; sourceTree = "<group>"; };
+		B3F3C31D2A3AB3FA00AEF654 /* DrinksCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinksCollectionViewCell.swift; sourceTree = "<group>"; };
+		B3F3C31F2A3AC24800AEF654 /* Globals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Globals.swift; sourceTree = "<group>"; };
 		B3F8D9DD2A399BE800B821B9 /* 20230614_KebukeAPP_SnapKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 20230614_KebukeAPP_SnapKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3F8D9E02A399BE800B821B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B3F8D9E22A399BE800B821B9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B3F8D9E42A399BE800B821B9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B3F8D9E72A399BE800B821B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B3F8D9E92A399BE900B821B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B3F8D9EC2A399BE900B821B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B3F8D9EE2A399BE900B821B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -31,17 +51,68 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F999EA475651BD4A51E6401 /* Pods_20230614_KebukeAPP_SnapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04A75B91EC053BC21B19F63B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0A9BA75A5684AE4F8C65C296 /* Pods-20230614_KebukeAPP_SnapKit.debug.xcconfig */,
+				37E0A7C2111DF114317E33D2 /* Pods-20230614_KebukeAPP_SnapKit.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6AD0086C9E22A1743FD5006B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				176ED7E4A357DF0A68074E83 /* Pods_20230614_KebukeAPP_SnapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B32E6D812A39AE35007D543C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B32E6D892A39AF7E007D543C /* MainCollectionViewController.swift */,
+				B32E6D8B2A39AFB1007D543C /* DetailViewController.swift */,
+				B32E6D8D2A39AFDD007D543C /* SecondaryTableViewController.swift */,
+				B32E6D852A39AEA8007D543C /* MainTabBarController.swift */,
+				B32E6D872A39AF29007D543C /* MainNavigationController.swift */,
+				B36437B82A3B0CBA0051346E /* SecondaryNavigationController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B32E6D832A39AE4F007D543C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B3F3C31B2A3AB31600AEF654 /* HeaderCollectionReusableView.swift */,
+				B3F3C31D2A3AB3FA00AEF654 /* DrinksCollectionViewCell.swift */,
+				B36437B62A3B041C0051346E /* SecondaryTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B32E6D842A39AE55007D543C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B3B09E022A39E2FF009627E0 /* DrinksContent.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		B3F8D9D42A399BE800B821B9 = {
 			isa = PBXGroup;
 			children = (
 				B3F8D9DF2A399BE800B821B9 /* 20230614_KebukeAPP_SnapKit */,
 				B3F8D9DE2A399BE800B821B9 /* Products */,
+				04A75B91EC053BC21B19F63B /* Pods */,
+				6AD0086C9E22A1743FD5006B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,9 +128,10 @@
 			isa = PBXGroup;
 			children = (
 				B3F8D9E02A399BE800B821B9 /* AppDelegate.swift */,
-				B3F8D9E22A399BE800B821B9 /* SceneDelegate.swift */,
-				B3F8D9E42A399BE800B821B9 /* ViewController.swift */,
-				B3F8D9E62A399BE800B821B9 /* Main.storyboard */,
+				B3F3C31F2A3AC24800AEF654 /* Globals.swift */,
+				B32E6D842A39AE55007D543C /* Model */,
+				B32E6D832A39AE4F007D543C /* View */,
+				B32E6D812A39AE35007D543C /* Controller */,
 				B3F8D9E92A399BE900B821B9 /* Assets.xcassets */,
 				B3F8D9EB2A399BE900B821B9 /* LaunchScreen.storyboard */,
 				B3F8D9EE2A399BE900B821B9 /* Info.plist */,
@@ -74,15 +146,19 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B3F8D9F12A399BE900B821B9 /* Build configuration list for PBXNativeTarget "20230614_KebukeAPP_SnapKit" */;
 			buildPhases = (
+				B9B62D3E3BF5F343D2242232 /* [CP] Check Pods Manifest.lock */,
 				B3F8D9D92A399BE800B821B9 /* Sources */,
 				B3F8D9DA2A399BE800B821B9 /* Frameworks */,
 				B3F8D9DB2A399BE800B821B9 /* Resources */,
+				BC061CA31D1F0B6F6B2C90F9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = 20230614_KebukeAPP_SnapKit;
+			packageProductDependencies = (
+			);
 			productName = 20230614_KebukeAPP_SnapKit;
 			productReference = B3F8D9DD2A399BE800B821B9 /* 20230614_KebukeAPP_SnapKit.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +187,8 @@
 				Base,
 			);
 			mainGroup = B3F8D9D42A399BE800B821B9;
+			packageReferences = (
+			);
 			productRefGroup = B3F8D9DE2A399BE800B821B9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,34 +205,76 @@
 			files = (
 				B3F8D9ED2A399BE900B821B9 /* LaunchScreen.storyboard in Resources */,
 				B3F8D9EA2A399BE900B821B9 /* Assets.xcassets in Resources */,
-				B3F8D9E82A399BE800B821B9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B9B62D3E3BF5F343D2242232 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-20230614_KebukeAPP_SnapKit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC061CA31D1F0B6F6B2C90F9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-20230614_KebukeAPP_SnapKit/Pods-20230614_KebukeAPP_SnapKit-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-20230614_KebukeAPP_SnapKit/Pods-20230614_KebukeAPP_SnapKit-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-20230614_KebukeAPP_SnapKit/Pods-20230614_KebukeAPP_SnapKit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B3F8D9D92A399BE800B821B9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3F8D9E52A399BE800B821B9 /* ViewController.swift in Sources */,
+				B32E6D882A39AF29007D543C /* MainNavigationController.swift in Sources */,
+				B3F3C31C2A3AB31600AEF654 /* HeaderCollectionReusableView.swift in Sources */,
+				B36437B72A3B041C0051346E /* SecondaryTableViewCell.swift in Sources */,
+				B3F3C31E2A3AB3FA00AEF654 /* DrinksCollectionViewCell.swift in Sources */,
+				B3B09E032A39E2FF009627E0 /* DrinksContent.swift in Sources */,
 				B3F8D9E12A399BE800B821B9 /* AppDelegate.swift in Sources */,
-				B3F8D9E32A399BE800B821B9 /* SceneDelegate.swift in Sources */,
+				B36437B92A3B0CBA0051346E /* SecondaryNavigationController.swift in Sources */,
+				B32E6D8A2A39AF7E007D543C /* MainCollectionViewController.swift in Sources */,
+				B32E6D8E2A39AFDD007D543C /* SecondaryTableViewController.swift in Sources */,
+				B32E6D862A39AEA8007D543C /* MainTabBarController.swift in Sources */,
+				B3F3C3202A3AC24800AEF654 /* Globals.swift in Sources */,
+				B32E6D8C2A39AFB1007D543C /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		B3F8D9E62A399BE800B821B9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B3F8D9E72A399BE800B821B9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B3F8D9EB2A399BE900B821B9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,17 +402,17 @@
 		};
 		B3F8D9F22A399BE900B821B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A9BA75A5684AE4F8C65C296 /* Pods-20230614_KebukeAPP_SnapKit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 11;
 				DEVELOPMENT_TEAM = JR65886DH4;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 20230614_KebukeAPP_SnapKit/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -310,17 +430,17 @@
 		};
 		B3F8D9F32A399BE900B821B9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37E0A7C2111DF114317E33D2 /* Pods-20230614_KebukeAPP_SnapKit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 11;
 				DEVELOPMENT_TEAM = JR65886DH4;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 20230614_KebukeAPP_SnapKit/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
