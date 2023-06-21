@@ -74,6 +74,17 @@ class DetailViewController: UIViewController{
     
     
     //選擇容量 標題
+    var titleLabel: UILabel! = {
+        let label = UILabel()
+        label.text = "選擇容量"
+        label.font = .systemFont(ofSize: 16, weight: .bold)
+        label.textColor = appTintColor
+        label.numberOfLines = 0
+        return label
+    }()
+    
+    
+    
     var capacityTitleLabel: UILabel! = {
         let label = UILabel()
         label.text = "選擇容量"
@@ -82,6 +93,15 @@ class DetailViewController: UIViewController{
         label.numberOfLines = 0
         return label
     }()
+    
+    func titleLabelStyle() -> UILabel {
+        let label = UILabel()
+        label.text = title
+        label.font = .systemFont(ofSize: 16, weight: .bold)
+        label.textColor = appTintColor
+        label.numberOfLines = 0
+        return label
+    }
     
     
     //選擇容量 SegmentControl
@@ -228,8 +248,10 @@ class DetailViewController: UIViewController{
         addButton.addTarget(self, action: #selector(addToCart), for: .touchUpInside)
         self.inputTextField.delegate = self
         
+        
+        
+        
     }
-    
     
     
     
@@ -257,6 +279,12 @@ class DetailViewController: UIViewController{
         addButton.setTitle("訂購 ($\(selectSizePrice + selectExtraPrice))", for: .normal)
     }
     
+    //ScrollView 按空白處收鍵盤
+    @objc func singleTapGestureCaptured(gesture: UITapGestureRecognizer){
+        self.view.endEditing(true)
+    }
+    
+    
     //AutoLayout設定
     override func viewDidLayoutSubviews() {
         
@@ -265,8 +293,10 @@ class DetailViewController: UIViewController{
         
         //終於找到問題，scroll可以捲動的關鍵！！
         scrollView.contentSize = CGSize(width: self.view.frame.size.width, height: 640)
-        scrollView.isScrollEnabled = true
+//        scrollView.isScrollEnabled = true
         
+        let touch = UITapGestureRecognizer(target: self, action: #selector(singleTapGestureCaptured))
+        scrollView.addGestureRecognizer(touch)
         
         self.view.addSubview(scrollView)
         scrollView.translatesAutoresizingMaskIntoConstraints = false

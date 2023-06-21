@@ -15,6 +15,7 @@
 		B32E6D8E2A39AFDD007D543C /* SecondaryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32E6D8D2A39AFDD007D543C /* SecondaryTableViewController.swift */; };
 		B36437B72A3B041C0051346E /* SecondaryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36437B62A3B041C0051346E /* SecondaryTableViewCell.swift */; };
 		B36437B92A3B0CBA0051346E /* SecondaryNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36437B82A3B0CBA0051346E /* SecondaryNavigationController.swift */; };
+		B3A6C3E02A42A51100F12F34 /* LaunchScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A6C3DF2A42A51100F12F34 /* LaunchScreenViewController.swift */; };
 		B3B09E032A39E2FF009627E0 /* DrinksContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B09E022A39E2FF009627E0 /* DrinksContent.swift */; };
 		B3F3C31C2A3AB31600AEF654 /* HeaderCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F3C31B2A3AB31600AEF654 /* HeaderCollectionReusableView.swift */; };
 		B3F3C31E2A3AB3FA00AEF654 /* DrinksCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F3C31D2A3AB3FA00AEF654 /* DrinksCollectionViewCell.swift */; };
@@ -35,6 +36,7 @@
 		B32E6D8D2A39AFDD007D543C /* SecondaryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondaryTableViewController.swift; sourceTree = "<group>"; };
 		B36437B62A3B041C0051346E /* SecondaryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondaryTableViewCell.swift; sourceTree = "<group>"; };
 		B36437B82A3B0CBA0051346E /* SecondaryNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondaryNavigationController.swift; sourceTree = "<group>"; };
+		B3A6C3DF2A42A51100F12F34 /* LaunchScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenViewController.swift; sourceTree = "<group>"; };
 		B3B09E022A39E2FF009627E0 /* DrinksContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinksContent.swift; sourceTree = "<group>"; };
 		B3F3C31B2A3AB31600AEF654 /* HeaderCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderCollectionReusableView.swift; sourceTree = "<group>"; };
 		B3F3C31D2A3AB3FA00AEF654 /* DrinksCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinksCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -84,6 +86,7 @@
 				B32E6D852A39AEA8007D543C /* MainTabBarController.swift */,
 				B32E6D872A39AF29007D543C /* MainNavigationController.swift */,
 				B36437B82A3B0CBA0051346E /* SecondaryNavigationController.swift */,
+				B3A6C3DF2A42A51100F12F34 /* LaunchScreenViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B32E6D882A39AF29007D543C /* MainNavigationController.swift in Sources */,
+				B3A6C3E02A42A51100F12F34 /* LaunchScreenViewController.swift in Sources */,
 				B3F3C31C2A3AB31600AEF654 /* HeaderCollectionReusableView.swift in Sources */,
 				B36437B72A3B041C0051346E /* SecondaryTableViewCell.swift in Sources */,
 				B3F3C31E2A3AB3FA00AEF654 /* DrinksCollectionViewCell.swift in Sources */,
@@ -413,8 +417,8 @@
 				INFOPLIST_FILE = 20230614_KebukeAPP_SnapKit/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -441,8 +445,8 @@
 				INFOPLIST_FILE = 20230614_KebukeAPP_SnapKit/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

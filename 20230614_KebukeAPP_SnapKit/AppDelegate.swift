@@ -53,9 +53,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let secondaryTableViewController = SecondaryTableViewController()
         secondaryNavigationController.viewControllers = [secondaryTableViewController]
         
-        
-        
-        
         //把上述畫面顯示出來
         window = UIWindow(frame: UIScreen.main.bounds)
         
@@ -64,8 +61,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window?.backgroundColor = UIColor(cgColor: CGColor(red: 23/255, green: 61/255, blue: 80/255, alpha: 1))
         
         window?.makeKeyAndVisible()
-        window?.rootViewController = mainTabBarController
         
+        window?.rootViewController = LaunchScreenViewController()
+                
+        //延長Launch Screen 時間
+        DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 2) {
+            mainTabBarController.modalTransitionStyle = .crossDissolve
+            mainTabBarController.modalPresentationStyle = .fullScreen
+            self.window?.rootViewController = mainTabBarController
+        }
         
         return true
     }
